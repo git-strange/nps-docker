@@ -1,5 +1,5 @@
 FROM alpine:3.12
-MAINTAINER docker <docker@gmail.com>
+MAINTAINER docker <>
 
 ENV NPS_VERSION 0.26.10
 ENV MODE kcp
@@ -9,7 +9,7 @@ ENV BRIDGE_PORT 8024
 ENV ALLOW_POSTS "53,9001-9009,10001,11000-12000"
 ENV HTTP_PROXY_PORT 80
 ENV HTTPS_PROXY_PORT 443
-ENV DOMAIN nps.youdomain.com
+ENV DOMAIN nps.panyan.tech
 ENV TZ=Asia/Shanghai
 LABEL name=nps
 
